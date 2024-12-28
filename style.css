@@ -1,0 +1,27 @@
+
+.navcontainer{
+    flex-wrap: wrap;
+    background-color: inherit;
+}
+.navbody{
+    flex-wrap: wrap;
+    display: inline-flex;
+}
+.projectoption{
+    display: inline-flex; 
+    gap: 10px;
+    list-style: none;
+    font-size: larger;
+    align-content: center;
+}
+.projectoption li a{
+    text-decoration: none;
+    text-decoration-style: solid;
+}
+
+.header{
+    gap: 10px;
+    position: relative;
+    top: -50px;
+    font-size: 20px;
+}
